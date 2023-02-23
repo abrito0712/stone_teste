@@ -1,0 +1,3 @@
+CREATE TABLE dbt_stone.METODO_PAGAMENTO
+(codigo_metodo_pagamento INTEGER,
+ descricao_metodo_pagamento STRING)
