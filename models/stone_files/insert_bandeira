@@ -1,0 +1,42 @@
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(1,'AMEX');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(2,'RUPAY');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(3,'MAESTRO');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(4,'PRIVATELABELCARD');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(5,'Cabal');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(6,'TICKET');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(7,'VR');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(8,'ALELO');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(9,'SODEXO');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(10,'JCB');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(11,'ELO');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(12,'VISA');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(13,'HIPERCARD');
+
+INSERT INTO `dbt_stone.BANDEIRA_CARTAO` (codigo_bandeira, descricao_bandeira)
+VALUES(14,'MASTERCARD');
+

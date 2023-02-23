@@ -1,0 +1,3 @@
+CREATE TABLE dbt_stone.TB_METODO_DE_CAPTURA
+(codigo_captura INTEGER,
+descricao_metodo STRING)
