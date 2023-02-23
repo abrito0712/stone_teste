@@ -1,0 +1,4 @@
+CREATE TABLE dbt_stone.TB_TRANSACAO AS 
+SELECT * FROM dbt_stone.table1
+UNION ALL
+SELECT * FROM dbt_stone.table2 
