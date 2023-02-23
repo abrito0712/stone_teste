@@ -1,0 +1,43 @@
+CREATE TABLE dbt_stone.TB_TRANSACAO_DASH AS
+SELECT 
+  VW.codigo_da_transacao,
+  VW.data_e_hora_da_transacao,
+  VW.codigo_captura,
+  VW.codigo_metodo_pagamento,
+  VW.codigo_bandeira,
+  VW.codigo_estado_transacao,
+  VW.valor_da_transacao,
+  VW.codigo_do_usuario,
+  VW.estado_do_usuario,
+  VW.cidade_do_usuario
+
+FROM(
+SELECT 
+  codigo_da_transacao,
+  data_e_hora_da_transacao,
+  MC.codigo_captura,
+  MP.codigo_metodo_pagamento,
+  B.codigo_bandeira,
+  ET.codigo_estado_transacao,
+  valor_da_transacao,
+  codigo_do_usuario,
+  estado_do_usuario,
+  cidade_do_usuario
+FROM
+  `dbt_stone.TB_TRANSACAO` T 
+INNER JOIN 
+   `dbt_stone.TB_METODO_DE_CAPTURA` MC
+ON 
+T.metodo_de_captura = MC.descricao_metodo
+INNER JOIN 
+  `dbt_stone.METODO_PAGAMENTO` MP
+ON
+  T.metodo_de_pagamento = MP.descricao_metodo_pagamento
+INNER JOIN 
+  `dbt_stone.BANDEIRA_CARTAO` B
+ON
+   T.bandeira_do_cartao = B.descricao_bandeira
+INNER JOIN 
+   `dbt_stone.ESTADO_TRANSACAO` ET
+ON
+   T.estado_da_transacao = ET.descricao_estado_transacao) AS VW
