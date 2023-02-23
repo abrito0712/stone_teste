@@ -1,0 +1,3 @@
+CREATE TABLE dbt_stone.BANDEIRA_CARTAO
+(codigo_bandeira INTEGER,
+ descricao_bandeira STRING)
