@@ -1,0 +1,21 @@
+INSERT INTO `dbt_stone.ESTADO_TRANSACAO` (codigo_estado_transacao, descricao_estado_transacao)
+VALUES(1,'PAID');
+
+INSERT INTO `dbt_stone.ESTADO_TRANSACAO` (codigo_estado_transacao, descricao_estado_transacao)
+VALUES(2,'REFUSED');
+
+INSERT INTO `dbt_stone.ESTADO_TRANSACAO` (codigo_estado_transacao, descricao_estado_transacao)
+VALUES(3,'REFUNDED');
+
+INSERT INTO `dbt_stone.ESTADO_TRANSACAO` (codigo_estado_transacao, descricao_estado_transacao)
+VALUES(4,'PROCESSING');
+
+
+INSERT INTO `dbt_stone.ESTADO_TRANSACAO` (codigo_estado_transacao, descricao_estado_transacao)
+VALUES(5,'CHARGEDBACK');
+
+INSERT INTO `dbt_stone.ESTADO_TRANSACAO` (codigo_estado_transacao, descricao_estado_transacao)
+VALUES(6,'chargedback');
+
+INSERT INTO `dbt_stone.ESTADO_TRANSACAO` (codigo_estado_transacao, descricao_estado_transacao)
+VALUES(7,'refunded');
